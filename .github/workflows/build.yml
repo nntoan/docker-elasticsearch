@@ -1,11 +1,9 @@
 name: Docker Image CI
 
 on:
-  push:
-    tags:
-      - 5.*-*.*.*
-      - 6.*-*.*.*
-      - 7.*-*.*.*
+  release:
+    types: [published]
+
 env:
   DOCKERHUB_REGISTRY: nntoan
   DOCKERHUB_REPOSITORY: elasticsearch
@@ -49,3 +47,4 @@ jobs:
         platforms: linux/amd64,linux/arm64
         push: true
         tags: $DOCKERHUB_REGISTRY/$DOCKERHUB_REPOSITORY:$IMAGE_TAG
+
