@@ -6,6 +6,7 @@ Currently major versions are supported:
 - 7.6.x (latest version 7.6.2)
 - 7.7.x (latest version 7.7.1)
 - 7.9.x (latest version 7.9.3)
+- 7.16.x (latest version 7.16.3)
 
 ## To build the image
 Docker Cloud is now responsible for building and uploading a new image to the Docker Cloud Private Docker Registry.
