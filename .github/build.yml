@@ -1,9 +1,11 @@
 name: Docker Image CI
 
 on:
-  release:
-    types: [published]
-
+  push:
+    tags:
+      - 5.*-*.*.*
+      - 6.*-*.*.*
+      - 7.*-*.*.*
 env:
   DOCKERHUB_REGISTRY: nntoan
   DOCKERHUB_REPOSITORY: elasticsearch
