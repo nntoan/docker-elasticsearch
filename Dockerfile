@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.16
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.23
 
 MAINTAINER Toan Nguyen <hello@nntoan.com>
 
