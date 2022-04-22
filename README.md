@@ -15,7 +15,7 @@ eg.
 ## To run the container (Version 2 now uses docker-compose)
 ```bash
 elasticsearch:
-  image: nntoan/docker-elasticsearch:5.6-16.0.0
+  image: nntoan/elasticsearch:5.6-16.0.0
   container_name: elasticsearch
   environment:
     - cluster.name=webserver_default
