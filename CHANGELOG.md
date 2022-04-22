@@ -4,6 +4,9 @@ Each major php version branch adheres to [Semantic Versioning](http://semver.org
 
 ## Master Branch
 
+### [7.9-3.0.0] - 2022-04-22
+ - Upgraded ElasticSearch to 7.9.3
+
 ### [7.7-1.0.0] - 2022-04-22
  - Upgraded ElasticSearch to 7.7.1
 
